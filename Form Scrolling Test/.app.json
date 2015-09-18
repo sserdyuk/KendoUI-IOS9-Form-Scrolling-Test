@@ -1,4 +1,41 @@
 {
   "type": "kendo-ui-mobile",
-  "isNew": true
+  "views": [
+    {
+      "type": "view",
+      "components": [
+        {
+          "type": "form",
+          "components": [
+            {
+              "type": "field",
+              "name": "cardholder",
+              "title": "Cardholder",
+              "inputType": "text",
+              "placeholder": "johndoe"
+            },
+            {
+              "type": "field",
+              "name": "cvc",
+              "title": "Security code",
+              "inputType": "password",
+              "placeholder": "XXX"
+            }
+          ],
+          "name": "homeModel",
+          "submitButton": "Confirm",
+          "cancelButton": "Cancel"
+        }
+      ],
+      "name": "home",
+      "title": "Hello!",
+      "addToNavigation": true,
+      "icon": "home"
+    }
+  ],
+  "dataProviders": [],
+  "name": "kendoUiMobileApp",
+  "navigation": "none",
+  "view": "home",
+  "skin": "flat"
 }

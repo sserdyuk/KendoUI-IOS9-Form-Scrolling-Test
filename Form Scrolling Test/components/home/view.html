@@ -1,0 +1,27 @@
+<div data-role="view" data-title="Hello!" data-layout="main" data-model="app.home" data-show="app.home.onShow" data-after-show="app.home.afterShow">
+    <div id="homeModel" class="form-view">
+        <form>
+            <ul class="form-content" data-role="listview" data-style="inset">
+                <li>
+                    <label>Cardholder
+                        <input data-bind="value: homeModel.fields.cardholder" placeholder="johndoe" type="text">
+                    </label>
+                </li>
+                <li>
+                    <label>Security code
+                        <input data-bind="value: homeModel.fields.cvc" placeholder="XXX" type="password">
+                    </label>
+                </li>
+            </ul>
+
+            <div class="button-group">
+                <a data-role="button" data-bind="events: { click: homeModel.cancel }">Cancel</a>
+                <a class="primary" data-role="button" data-bind="events: { click: homeModel.submit }">Confirm</a>
+            </div>
+        </form>
+        <!-- START_CUSTOM_CODE_homeModel -->
+        <!-- END_CUSTOM_CODE_homeModel -->
+    </div>
+    <!-- START_CUSTOM_CODE_home -->
+    <!-- END_CUSTOM_CODE_home -->
+</div>
