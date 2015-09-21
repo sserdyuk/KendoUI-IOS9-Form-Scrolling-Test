@@ -2,7 +2,7 @@
   "ProjectName": "Form Scrolling Test",
   "ProjectGuid": "9e3934ba-fa85-4d33-8655-c1cd663db4f1",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.FormScrollingTest",
+  "AppIdentifier": "com.redleafsoft.FormScrollingTest",
   "DisplayName": "Form Scrolling Test",
   "Author": "",
   "Description": "Form Scrolling Test",
@@ -22,7 +22,7 @@
     "Portrait",
     "Landscape"
   ],
-  "AndroidHardwareAcceleration": "false",
+  "AndroidHardwareAcceleration": "True",
   "iOSStatusBarStyle": "Default",
   "Framework": "Cordova",
   "WP8TileTitle": "",
@@ -44,5 +44,6 @@
   ],
   "CorePlugins": [
     "org.apache.cordova.network-information"
-  ]
+  ],
+  "iOSDeploymentTarget": "6.0"
 }
